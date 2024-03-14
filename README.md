@@ -13,6 +13,8 @@ JavaScript: For the calculation logic and interactivity of the calculator.
 CSS: For the design and styling of the user interface, inspired by Calculon.
 HTML: For the basic structure of the page and the inclusion of the calculator's elements.
 
+access: https://capable-fenglisu-6c0435.netlify.app/
+
 
 
 Calculadora Temática de Calculon
@@ -28,3 +30,5 @@ Tecnologías Utilizadas
 JavaScript: Para la lógica de cálculo y la interactividad de la calculadora.
 CSS: Para el diseño y la estilización de la interfaz de usuario, inspirada en Calculon.
 HTML: Para la estructura básica de la página y la inclusión de los elementos de la calculadora.
+
+acceso:https://capable-fenglisu-6c0435.netlify.app/
