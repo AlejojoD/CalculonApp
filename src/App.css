@@ -1,0 +1,118 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+
+}
+body{
+  background:#C07F00;
+}
+.contenedor{
+  height:100vh ;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  
+}
+.calculon{
+  text-align: center;
+}
+.calculonLogo{
+
+ left: 10px;
+ padding-bottom: 90px;
+}
+
+.calculonTitulo{
+  font-size: 25px;
+  color: #FEFF86;
+  
+}
+
+.calculadora{
+  position: relative;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow:0 0 10px #B0DAFF;
+  background-color: #616F39;
+  top: -60px;
+  height: 370px;
+  width: 280px;
+}
+
+#display{
+  position: fixed;
+  font-size: 35px;
+  width: 200px;
+  
+  margin-left: 20px;
+  overflow: hidden;
+  text-align: end;
+  border:#C07F00 solid;
+  box-shadow:0 0 10px #C07F00;
+  
+  
+}
+.buttons{
+  
+  margin-left: 18px;
+  margin-top: 70px;
+}
+
+.btn-number{
+  font-size: 30px;
+  height: 50px;
+  width: 50px;
+  background-color: #E7B10A;
+  cursor: pointer;
+  box-shadow:0 0 10px #C07F00;
+  border-radius: 15%;
+}
+
+.btn-number:hover{
+  scale: 1.1;
+}
+
+.btn-operator{
+  height: 50px;
+  width: 50px;
+  font-size: 30px;
+  background-color: #E7B10A;
+  cursor: pointer;
+  box-shadow:0 0 10px #C07F00;
+  border-radius: 15%;
+}
+
+.btn-operator:hover{
+  scale: 1.1;
+}
+.btn-equal{
+  height: 100px;
+  width: 50px;
+  background-color: #F0FF42;
+  font-size: 35px;
+}
+
+/* Estilos para pantallas pequeñas */
+@media screen and (max-width: 480px) {
+  .calculadora {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  #display {
+    font-size: 25px;
+  }
+
+  .btn-number,
+  .btn-operator,
+  .btn-equal {
+    font-size: 25px;
+    height: 40px;
+  }
+}
